@@ -3,25 +3,25 @@
 exports[`Deve renderizar uma lista de links com a classe link 1`] = `
 Array [
   <a
-    class="links"
+    class="link"
     href="/"
   >
     Inicial
   </a>,
   <a
-    class="links"
+    class="link"
     href="/"
   >
     Transferências
   </a>,
   <a
-    class="links"
+    class="link"
     href="/"
   >
     Investimentos
   </a>,
   <a
-    class="links"
+    class="link"
     href="/"
   >
     Outros serviços

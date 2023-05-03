@@ -14,7 +14,7 @@ export default function Menu() {
       {listaMenu.map((item, indice) => {
         return (
           <div key={item} className={estilos.item}>
-            <a href="/" className={estilos.links}>
+            <a href="/" className={estilos.link}>
               {item}
             </a>
             {indice !== listaMenu.length - 1 && (

@@ -10,6 +10,7 @@ test('Deve renderizar um link para a página inicial', () => {
 test('Deve renderizar uma lista de links', () => {
   render(<Menu />);
   const listaDeLinks = screen.getAllByRole('link');
+
   expect(listaDeLinks).toHaveLength(4);
 });
 
@@ -22,6 +23,6 @@ test('Não deve renderizar o link para Extrato', () => {
 test('Deve renderizar uma lista de links com a classe link', () => {
   render(<Menu />);
   const links = screen.getAllByRole('link');
-  links.forEach((link) => expect(link).toHaveClass('links'));
+  links.forEach((link) => expect(link).toHaveClass('link'));
   expect(links).toMatchSnapshot();
 });
